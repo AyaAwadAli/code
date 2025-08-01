@@ -1,30 +1,178 @@
-section {
-    margin-top: 100px;
-    display: flex;
-    justify-content: space-around;
-    gap: 5px;
+body {
+font: 1em sans-serif;
+margin: 0px;
+padding: 0px;
+
 }
 
-section .card {
-    border: 8px solid royalblue;
-    text-align: center;
-    padding: 10px 30px;
-    border-radius: 5px;
-}
-img {
-    width: 250px;
+
+.container {
+  background-image:url(../../sessions/s8/Car.jpg);
+  background-size: cover;
+  height:100vh;
 }
 
-p {
-    font-family: cursive;
-    color: royalblue;
+.f {
+  background-color: black;
+  color:white;
+  text-align: center;
+  height:23px;
+  padding:4px;
+  position: relative;
+  top:2px;
+  
 }
 
-button {
-    border: none;
-    outline: none;
-    padding: 10px 30px;
-    color: white;
-    border-radius: 5px;
-    background-color: royalblue;
+a {
+  color:rgb(134, 6, 253);
+}
+
+h1 {
+  color: white;
+}
+
+.logo {
+  text-align: center;
+}
+span {
+   background-color: #e53935;
+   color: white;
+   padding:2px 1px;
+   border-radius:8px;
+   
+}
+
+h4 {
+  font-size: 12px;
+  color: rgb(192, 192, 192);
+}
+/* ✅ صندوق الحجز */
+.container1 {
+   padding-left: 40px;
+   align-items: center;
+   justify-content: center; 
+   height:250px;
+   position: relative;
+   top: 50px;
+   left:229px; 
+} 
+
+
+
+.form-box {
+  background-color: rgb(255, 255, 255);
+  padding: 30px 30px;
+  width:280px;
+  border-radius:6px;
+}
+
+.form-box h2 {
+  font-size: 22px;
+  font-weight: bold;
+  color: #111;
+  margin-bottom:20px;
+}
+
+.subheading {
+  font-size: 11px;
+  color: #888;
+  margin-bottom: 10px;
+}
+
+form label {
+  font-size: 11px;
+  color: #444;
+  display: block;
+  margin-top:10px;
+
+
+}
+
+ form select {
+  width:281px;
+  padding:8px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius:3px;
+  box-shadow: 1px 1px 6px 5px white;
+}
+
+.date-box {
+  display: flex;
+  justify-content: space-between;
+  gap:3px;
+}
+
+.bu {
+height:31px;
+width:133px;
+background-color: rgb(248, 247, 247);
+text-align: left;
+box-shadow: 1px 1px 3px 5px white;
+border:1px solid white;
+border-radius:3px;
+position: relative;
+top: 4px;
+
+
+}
+.bu1 {
+  width: 280px;
+  margin-top: 20px;
+  padding:13px;
+  background-color: #d42900;
+  color: white;
+  border: none;
+  border-radius:2px;
+  font-weight: bold;
+  cursor: pointer;
+  transition:0.3s;
+}
+
+ button:hover {
+  background-color:palevioletred;
+} 
+
+.footer {
+  background-color: rgb(19, 0, 36);
+  color: white;
+  height:80px;
+  width:390px;
+  border: none;
+  border-radius: 5px; 
+  text-align: left;
+  margin-left:900px;
+  padding:3px;
+  position: relative;
+  top:187px;
+  padding-left:15px;
+}
+
+a {
+  color:rgb(134, 6, 253);
+}
+
+.m {
+  background-color: rgb(96, 194, 96);
+  color: white;
+  border: none;
+  border-radius:15px;
+  height:35px;
+  position: relative;
+  left:210px;
+  bottom:50px;
+  width: 170px;
+  animation-name:color;
+  animation-duration:1s;
+  animation-iteration-count: 5;
+
+}
+@keyframes colors{
+  0%{
+    color:rgb(96,194,96);
+  }
+  100%{
+     color:blueviolet;
+
+  }
 }
